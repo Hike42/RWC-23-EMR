@@ -1,0 +1,23 @@
+.shade {
+  width: 60vw;
+  height: 90vh;
+  background: var(
+    --shade-red,
+    linear-gradient(108deg, #2a37e6 51.2%, #e12a2a 93.17%)
+  );
+  overflow: hidden;
+  margin-top: 15px;
+}
+
+.image {
+  position: relative;
+  width: 400px;
+  left: 200px;
+  top: 200px;
+}
+
+.bypass {
+  position: fixed;
+  margin-right: 0px;
+  min-width: 100px;
+}
